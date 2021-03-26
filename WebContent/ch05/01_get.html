@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ch05/01_get.html</title>
+</head>
+<body>
+    <h2>Get 방식 전송</h2>
+    <form action="get.jsp" method="get">
+        이름:<input type="text" name="name"value="홍길동"><br><br>
+        전공:<input type="text" name="major" value="역사학과"><br><br>
+        비번:<input type="password" name="password"> <br><br>
+        <input type="submit" value="전송"><br><br>
+        <input type="reset" value="취소"><br><br>
+    </form>
+    <a href="get.jsp?name=김길동&major=미술학과">전송</a>
+</body>
+</html>
