@@ -39,15 +39,15 @@
 		</tr>
 		<tr align="center">
 			<td>취미</td>
+			<td>
 			<%
 			String hobby[] = request.getParameterValues("hobby");
 			for (int i = 0; i < hobby.length; i++) {
-				String b = hobby[i];
-			%>
-			<td><%=b%></td>
-			<%
+				String b = hobby[i];	
+			=b
 			}
 			%>
+			</td>
 		
 	</table>
 </body>
